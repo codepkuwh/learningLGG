@@ -14,10 +14,10 @@ class Dianchi():
         self.left = random.randint(0,800)
 
 
-def next_dianchi():
-    dianchi_top = 0
-    dianchi_left = random.randint(0, 800)
-    return dianchi_left, dianchi_top
+# def next_dianchi():
+#     dianchi_top = 0
+#     dianchi_left = random.randint(0, 800)
+#     return dianchi_left, dianchi_top
 
 
 def print_text(font, x, y, text, color=(0, 0, 0)):
